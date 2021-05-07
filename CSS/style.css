@@ -59,6 +59,9 @@ img{ max-width: 100%;}
     color: var(--blanco);
     margin-top: 5rem;
 }
+.barra{
+    padding-top: 4rem;
+}
 @media (min-width: 768px){
     .barra{
         display: flex;
@@ -152,4 +155,10 @@ img{ max-width: 100%;}
 .widget-curso__label,
 .widget-curso__info{
     font-size: 2rem;
+}
+/** Footer **/
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
